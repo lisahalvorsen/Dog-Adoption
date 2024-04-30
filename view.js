@@ -3,10 +3,6 @@ function updateView() {
     else if (currentPage == 'dogsForAdoption') dogsForAdoptionView();
     else if (currentPage == 'aboutUs') aboutUsView();
     else if (currentPage == 'displayDog') displayDogInfo();
-    // else if (currentPage == 'Max') displayMaxInfo();
-    // else if (currentPage == 'Ronaldo') displayRonaldoInfo();
-    // else if (currentPage == 'Luna') displayLunaInfo();
-    // else if (currentPage == 'Kira') displayKiraInfo();
 }
 
 updateView();
