@@ -10,8 +10,8 @@ let dogs = [
         liveWithOtherDogs: 'Ja',
         liveWithCats: 'Ja',
         liveWithKids: 'Ja',
-        image: 'Images/maxdog.jpeg',
-        genderImage: 'Images/maleicon.png',
+        image: 'images/maxdog.jpeg',
+        genderImage: 'images/maleicon.png',
     },
     {
         name: 'Ronaldo',
@@ -21,8 +21,8 @@ let dogs = [
         liveWithOtherDogs: 'Nei',
         liveWithCats: 'Nei',
         liveWithKids: 'Ja',
-        image: 'Images/ronaldodog.jpeg',
-        genderImage: 'Images/maleicon.png',
+        image: 'images/ronaldodog.jpeg',
+        genderImage: 'images/maleicon.png',
     },
     {
         name: 'Luna',
@@ -32,8 +32,8 @@ let dogs = [
         liveWithOtherDogs: 'Ja',
         liveWithCats: 'Nei',
         liveWithKids: 'Nei',
-        image: 'Images/lunadog.jpeg',
-        genderImage: 'Images/femaleicon.png',
+        image: 'images/lunadog.jpeg',
+        genderImage: 'images/femaleicon.png',
     },
     {
         name: 'Kira',
@@ -43,8 +43,8 @@ let dogs = [
         liveWithOtherDogs: 'Ja',
         liveWithCats: 'Nei',
         liveWithKids: 'Ja',
-        image: 'Images/kiradog.jpeg',
-        genderImage: 'Images/femaleicon.png',
+        image: 'images/kiradog.jpeg',
+        genderImage: 'images/femaleicon.png',
     },
 ];
 
