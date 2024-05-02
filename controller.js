@@ -53,11 +53,3 @@ function fetchDogBreedData() {
             console.error('Det er feil ved henting av hundedata: ', error.message);
         });
 }
-
-// fetch('https://api.api-ninjas.com/v1/dogs?name=', {
-//     headers: { 'X-API-KEY': apiKey },
-// }).then(res => res.json()).then(data => {
-//     console.log('https://api.api-ninjas.com/v1/dogs?name=');
-//     console.log(data[0]);
-//     dogBreedData = data;
-// })
