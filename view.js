@@ -11,7 +11,7 @@ function drawMenu() {
     let html = '';
     html += /*HTML*/ `
     <div id="menu">
-        <img src="img/olalogo.png" alt="Logo for Olas Hunderedning" id="ola-logo" onclick="changeView('mainPage')">
+        <img src="./img/olalogo.png" alt="Logo for Olas Hunderedning" id="ola-logo" onclick="changeView('mainPage')">
         <button class="menu-button" onclick="changeView('dogsForAdoption')">Hunder til adopsjon</button>
         <button class="menu-button" onclick ="changeView('aboutUs')">Om oss</button>
     </div>`
@@ -21,7 +21,7 @@ function drawMenu() {
 function homePageView() {
     app.innerHTML = /*HTML*/ ` 
     ${drawMenu()}
-    <img src="img/toller.png" alt="A toller dog" id="toller">
+    <img src="./img/toller.png" alt="A toller dog" id="toller">
     <h1>På jakt etter hund?</h1>
     <p class="info">Vi i Olas Hunderedning har mange hunder som ser etter sitt foralltidhjem!</p>
     <button id="adoption-button" onclick="changeView('dogsForAdoption')">Se hunder til adopsjon</button>
@@ -50,9 +50,9 @@ function aboutUsView() {
     enn tre hunder: Hero (finsk lapphund), Kompis (Nova Scotia Duck Tolling Retriever/toller) og Maya (Border collie) 🐶.</p>
 
     <div id="images-container">
-    <img src="img/finnishlapphund.png" class="familydog-picture" alt="Hero, a Finnish lapphund">
-        <img src="img/toller2.png" class="familydog-picture" alt="Kompis, a toller">
-        <img src="img/bordercollie.png" class="familydog-picture" alt="Maya, a Border collie">
+    <img src="./img/finnishlapphund.png" class="familydog-picture" alt="Hero, a Finnish lapphund">
+        <img src="./img/toller2.png" class="familydog-picture" alt="Kompis, a toller">
+        <img src="./img/bordercollie.png" class="familydog-picture" alt="Maya, a Border collie">
     </div>
     `;
 }
@@ -158,7 +158,7 @@ function drawDogDataHtml() {
 
 function makePaw(amount) {
     let html = '';
-    html += `<img id="paw-icon" src="img/pawicon.png">`.repeat(amount);
+    html += `<img id="paw-icon" src="./img/pawicon.png">`.repeat(amount);
     return html;
 }
 
